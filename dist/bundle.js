@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){fetch("components/swiper.html").then((e=>e.text())).then((e=>{document.getElementById("swiper-container").innerHTML=e,new Swiper(".swiper",{direction:"horizontal",loop:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}})}))}));
